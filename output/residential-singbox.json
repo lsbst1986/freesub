@@ -5,50 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "45.77.241.190",
-      "server_port": 8441,
-      "uuid": "fe5a49b8-1cb1-4633-920a-61c8ec1f522a",
-      "tls": {
-        "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
-        "insecure": false
-      },
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "server": "172.64.229.2",
+      "server_port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi",
+        "path": "/?ed=2560security=tls",
         "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "57.129.52.47",
-      "server_port": 52014,
-      "uuid": "b135a1e0-ebdb-4d46-b3fa-bd1e78580244",
-      "tls": {
-        "enabled": true,
-        "server_name": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "118.167.206.152",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "server": "hinet1.2yly.com",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "tls": {
@@ -56,7 +28,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -70,18 +42,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
