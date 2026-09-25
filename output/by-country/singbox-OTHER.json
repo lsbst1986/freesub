@@ -6,35 +6,42 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "ccs2g.pai50288.uk",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "uuid": "4ff70740-8c80-48ae-985f-2afe4924e908",
       "tls": {
         "enabled": true,
-        "server_name": "ccs2g.pai50288.uk",
+        "server_name": "pubb.clnahanpnln.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/pai50288"
+        "path": "/syncfp=unsafe",
+        "headers": {
+          "Host": "pubb.clnahanpnln.workers.dev"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "7-m16.phuket2035.kdns.fr",
-      "server_port": 443,
-      "uuid": "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba",
+      "server": "104.18.32.47",
+      "server_port": 2087,
+      "uuid": "5a0028f9-c656-cec9-4b61-54678477a408",
       "tls": {
         "enabled": true,
-        "server_name": "7-m16.phuket2035.kdns.fr",
-        "insecure": false
+        "server_name": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/JRr6VGcSLFc034DC6sDbwyWJLbB",
+        "path": "/game",
         "headers": {
-          "Host": "7-m16.phuket2035.kdns.fr"
+          "Host": "green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev"
         }
       }
     },

@@ -5,31 +5,34 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: ccs2g.pai50288.uk
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  uuid: 4ff70740-8c80-48ae-985f-2afe4924e908
   tls: true
-  servername: ccs2g.pai50288.uk
+  servername: pubb.clnahanpnln.workers.dev
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /pai50288
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 7-m16.phuket2035.kdns.fr
-  port: 443
-  udp: true
-  type: vless
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  tls: true
-  servername: 7-m16.phuket2035.kdns.fr
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+    path: /syncfp=unsafe
     headers:
-      Host: 7-m16.phuket2035.kdns.fr
+      Host: pubb.clnahanpnln.workers.dev
+- name: 🌐 其他地区 (Other) 02 - xiaohe
+  server: 104.18.32.47
+  port: 2087
+  udp: true
+  type: vless
+  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
+  tls: true
+  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /game
+    headers:
+      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
