@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 87.120.216.144
+  server: gerwai1488.vvzzkontaktezzvv.garden
   port: 443
   udp: true
   type: vless
