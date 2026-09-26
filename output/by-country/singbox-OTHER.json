@@ -6,65 +6,23 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.39.176",
+      "server": "104.25.217.189",
       "server_port": 443,
-      "uuid": "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90",
+      "uuid": "7a657573-627d-c5d7-4e7b-9e260f5cfff1",
       "tls": {
         "enabled": true,
-        "server_name": "5-m13.ayutthaya.kdns.fr",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ED3ZQPu7lqyeDGD58KabZ",
-        "headers": {
-          "Host": "5-m13.ayutthaya.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.21.39.176",
-      "server_port": 443,
-      "uuid": "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90",
-      "tls": {
-        "enabled": true,
-        "server_name": "4-m13.ayutthaya.kdns.fr",
+        "server_name": "imzajnekupas.a3-60-morteza.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/ED3ZQPu7lqyeDGD58KabZ",
+        "path": "/stream/PANEL_ZEUS/9e260f5cfff1/loc-0",
         "headers": {
-          "Host": "4-m13.ayutthaya.kdns.fr"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.21.39.176",
-      "server_port": 443,
-      "uuid": "1aa96574-c28b-4ee9-855d-ebdbbf1f7e90",
-      "tls": {
-        "enabled": true,
-        "server_name": "5-m13.AYutThAyA.kDnS.FR",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ED3ZQPu7lqyeDGD58KabZ",
-        "headers": {
-          "Host": "5-M13.AyuTThAyA.KdNS.FR"
+          "Host": "imzajnekupas.a3-60-morteza.workers.dev"
         }
       }
     },
@@ -73,18 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe",
-        "🌐 其他地区 (Other) 02 - xiaohe",
-        "🌐 其他地区 (Other) 03 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
