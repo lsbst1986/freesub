@@ -6,24 +6,21 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.25.217.189",
+      "server": "ccs2g.pai50288.uk",
       "server_port": 443,
-      "uuid": "7a657573-627d-c5d7-4e7b-9e260f5cfff1",
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
       "tls": {
         "enabled": true,
-        "server_name": "imzajnekupas.a3-60-morteza.workers.dev",
+        "server_name": "ccs2g.pai50288.uk",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/stream/PANEL_ZEUS/9e260f5cfff1/loc-0",
-        "headers": {
-          "Host": "imzajnekupas.a3-60-morteza.workers.dev"
-        }
+        "path": "/pai50288"
       }
     },
     {
